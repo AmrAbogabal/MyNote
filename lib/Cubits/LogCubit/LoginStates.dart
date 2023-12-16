@@ -1,0 +1,21 @@
+abstract class LoginStates {}
+class AppInitialState extends LoginStates {}
+class ChangeItemSelectedState extends LoginStates {}
+class ChangePageState extends LoginStates {}
+class SignUpLoading extends LoginStates {}
+class SignUpSuccess extends LoginStates {}
+class SignUpError extends LoginStates {}
+class SignInLoading extends LoginStates {}
+class SignInSuccess extends LoginStates {}
+class SignInError extends LoginStates {}
+class ProfileImagePickedSuccessState extends LoginStates {}
+class ProfileImagePickedErrorState extends LoginStates {}
+class uploadProfileImageLoadingState extends LoginStates {}
+class UploadProfileImageSuccessState extends LoginStates {}
+class UploadProfileImageErrorState extends LoginStates {}
+class SendingOTO extends LoginStates {}
+class ErrorSendingOTO extends LoginStates {}
+class StoreUserLoading extends LoginStates {}
+class StoreUserSuccessState extends LoginStates {}
+class StoreUserErrorState extends LoginStates {}
+class ValState extends LoginStates {}
